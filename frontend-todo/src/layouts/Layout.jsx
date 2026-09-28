@@ -1,0 +1,1 @@
+import Header from '../components/Header';export default function Layout({children}){return <><Header/><main>{children}</main><footer>© {new Date().getFullYear()} ShopNest · Made for everyday discovery.</footer></>}
